@@ -1,0 +1,173 @@
+<div class="esthanis-ficha">
+  <div class="logo"></div>
+
+  <fieldset>
+    <legend>Informações Gerais</legend>
+    <label>Nome: <input type="text" name="attr_nome"></label>
+    <label>Povo:
+      <select name="attr_povo">
+        <option>Faunoide - Brac'tuur</option>
+        <option>Faunoide - Brambins</option>
+        <option>Faunoide - Cravvics</option>
+        <option>Faunoide - Drogarin</option>
+        <option>Faunoide - Gruvocs</option>
+        <option>Faunoide - Nim'raji</option>
+        <option>Faunoide - Qarnati</option>
+        <option>Faunoide - Raccari</option>
+        <option>Faunoide - Razari</option>
+        <option>Faunoide - Scrinns</option>
+        <option>Faunoide - Urgati</option>
+        <option>Faunoide - Varnix</option>
+        <option>Faunoide - Zal'Quet</option>
+        <option>Humanoide - Carguls</option>
+        <option>Humanoide - Durgrin</option>
+        <option>Humanoide - Esthanianos</option>
+        <option>Humanoide - Marrguts</option>
+        <option>Humanoide - Sylvaram</option>
+        <option>Humanoide - Tarnok</option>
+        <option>Humanoide - Tincari</option>
+      </select>
+    </label>
+    <label>Afiliação:
+      <select name="attr_afiliação">
+        <option>Abismais</option>
+        <option>Orgulas</option>
+        <option>Tormut</option>
+        <option>Scarmax</option>
+        <option>Vorcantros</option>
+      </select>
+    </label>
+    <label>Conceito:
+      <select name="attr_conceito">
+        <option>Artesão</option>
+        <option>Artista</option>
+        <option>Camponês</option>
+        <option>Catedrático</option>
+        <option>Cidadão Livre</option>
+        <option>Errante</option>
+        <option>Nobre</option>
+        <option>Selvagem</option>
+        <option>Vassalo</option>
+      </select>
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Características</legend>
+    <label>Físico: <input type="number" name="attr_fisico"></label>
+    <label>Social: <input type="number" name="attr_social"></label>
+    <label>Intelecto: <input type="number" name="attr_intelecto"></label>
+    <label>HP: <input type="number" name="attr_hp"></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Combate</legend>
+    <label>Força de Ataque: <input type="number" name="attr_fa"></label>
+    <label>Força de Defesa: <input type="number" name="attr_fd"></label>
+    <label>Proteção: <input type="number" name="attr_protecao"></label>
+    <label>Vida Útil: <input type="number" name="attr_vida_util"></label>
+    <label>Força Mística: <input type="number" name="attr_fm"></label>
+    <label>Nível: <input type="number" name="attr_nivel"></label>
+    <label>Carreira: <input type="text" name="attr_carreira"></label>
+    <label>Perfil de Carreira: <input type="text" name="attr_perfil_carreira"></label>
+    <label>Vantagem Heroica: <input type="number" name="attr_vantagem_heroica"></label>
+    <label>Experiência: <input type="number" name="attr_experiencia"></label>
+    <label>Fadiga Combativa: <input type="number" name="attr_fadiga_combativa"></label>
+    <label>Fadiga Mágica: <input type="number" name="attr_fadiga_magica"></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Capacidades</legend>
+    <label>Competência: <input type="number" name="attr_competencia"></label>
+    <label>Total: <input type="number" name="attr_total"></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Armas & Equipamentos</legend>
+    <fieldset class="repeating_armas">
+      <label>Nome: <input type="text" name="attr_nome"></label>
+      <label>Alcance: <input type="number" name="attr_alcance"></label>
+      <label>Dano: <input type="number" name="attr_dano"></label>
+      <label>Disparos: <input type="number" name="attr_disparos"></label>
+      <label>Bônus Sinérgico: <input type="number" name="attr_bonus_siner"></label>
+    </fieldset>
+  </fieldset>
+
+  <fieldset>
+    <legend>Anotações</legend>
+    <label>Herança Regional: <input type="text" name="attr_heranca_regional"></label>
+    <label>Recursos - M.O.: <input type="number" name="attr_mo"></label>
+    <label>Recursos - M.P.: <input type="number" name="attr_mp"></label>
+    <label>Recursos - M.C.: <input type="number" name="attr_mc"></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Servos Elementais</legend>
+    <fieldset class="repeating_servos">
+      <label>Nome: <input type="text" name="attr_nome"></label>
+      <label>Elemento: <input type="text" name="attr_elemento"></label>
+      <label>Hitpoints: <input type="number" name="attr_hitpoints"></label>
+      <label>Vantagem Elemental: <input type="text" name="attr_vantagem"></label>
+      <label>Vulnerabilidade Elemental: <input type="text" name="attr_vulnerabilidade"></label>
+      <label>FA: <input type="number" name="attr_fa"></label>
+      <label>FD: <input type="number" name="attr_fd"></label>
+      <label>FM: <input type="number" name="attr_fm"></label>
+      <label>Dano: <input type="number" name="attr_dano"></label>
+      <label>Duração: <input type="text" name="attr_duracao"></label>
+      <label>Dissipação: <input type="number" name="attr_dissipacao"></label>
+    </fieldset>
+  </fieldset>
+
+  <fieldset>
+    <legend>Diabretes & Necroconstrutos</legend>
+    <fieldset class="repeating_diabretes">
+      <label>Nome: <input type="text" name="attr_nome"></label>
+      <label>Tipo:
+        <select name="attr_tipo">
+          <option>Diabrete</option>
+          <option>Esqueleto</option>
+          <option>Zumbi</option>
+        </select>
+      </label>
+      <label>Hitpoints: <input type="number" name="attr_hitpoints"></label>
+      <label>FA: <input type="number" name="attr_fa"></label>
+      <label>FD: <input type="number" name="attr_fd"></label>
+      <label>FM: <input type="number" name="attr_fm"></label>
+      <label>Dano: <input type="number" name="attr_dano"></label>
+      <label>Duração: <input type="number" name="attr_duracao"></label>
+      <label>Dreno: <input type="text" name="attr_dreno"></label>
+    </fieldset>
+  </fieldset>
+</div>
+
+<style>
+  .esthanis-ficha {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .esthanis-ficha fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #fff;
+  }
+
+  .esthanis-ficha legend {
+    font-weight: bold;
+    padding: 0 5px;
+  }
+
+  .esthanis-ficha label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+</style>
